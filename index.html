@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Roleta do Migué</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img class="picture" src="./images/italo.png">
+            <img class="emoji hidden" id="emoji" src="./images/emoji.png">
+        </div>
+        <div class="text-container">
+            <span class="base-text">Gente, não vou poder ir...</span>
+            <span class="reason-text hidden" id="reason-text">Minha mãe tá na fila do Atacadão</span>
+        </div>
+        <button type="button" class="btn" id="btn" onclick="generateReason()">▶</button>
+    </div>
+    <footer>By: @icarofn</footer>
+    <script src="app.js"></script>
+</body>
+</html>
