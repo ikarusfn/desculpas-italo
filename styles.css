@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 100%;
     position: fixed;
     background-color: #0F212F;
 
@@ -26,7 +27,7 @@ body {
     width: 100%;
     height: 400px;
     position: relative;
-    top: -5%;
+    top: -10%;
 }
 
 .image-container {
